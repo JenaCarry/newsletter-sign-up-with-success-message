@@ -5,7 +5,7 @@
   <h2>Newsletter sign-up form with success message</h2>
 
   <h3>
-    <a href="">
+    <a href="https://www.frontendmentor.io/solutions/newsletter-signup-form-with-success-message-uXGWb0bcac">
       <strong>Frontend Mentor</strong>
     </a>
   </h3>
@@ -34,7 +34,7 @@ This is a solution to the [Newsletter sign-up form with success message challeng
 
 <h2>Links</h2>
 
-- Solution URL: [Newsletter sign-up form with success message | Frontend Mentor]()
+- Solution URL: [Newsletter sign-up form with success message | Frontend Mentor](https://www.frontendmentor.io/solutions/newsletter-signup-form-with-success-message-uXGWb0bcac)
 - Live Site URL: [https://jenacarry.github.io/newsletter-sign-up-with-success-message/](https://jenacarry.github.io/newsletter-sign-up-with-success-message/)
 
 <br>
