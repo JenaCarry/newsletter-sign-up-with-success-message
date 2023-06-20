@@ -34,6 +34,19 @@ body {
     justify-content: center;
 }
 
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subscribe,
+.thanks {
+    opacity: 1;
+    transform: scale(1);
+    transition: all 0.2s cubic-bezier(0.17, 0.67, 0.83, 0.67);
+}
+
 .card {
     width: 100%;
     background-color: #fff;
@@ -186,7 +199,7 @@ button:hover::after {
 
 /* Success message start */
 .thanks {
-    display: none;
+    position: absolute;
 }
 
 .card-success {
@@ -224,6 +237,12 @@ button:hover::after {
 }
 
 /* Success message end */
+
+.isHidden {
+    transform: scale(0.8);
+    visibility: hidden;
+    opacity: 0;
+}
 
 @media screen and (min-width: 425px) {
     .card-content {
@@ -315,7 +334,7 @@ button:hover::after {
     }
 }
 
-@keyframes anima {
+/* @keyframes anima {
     from {
         opacity: 1;
     }
@@ -323,4 +342,4 @@ button:hover::after {
     to {
         opacity: 0;
     }
-}
+} */

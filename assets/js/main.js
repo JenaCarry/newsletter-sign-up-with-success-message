@@ -11,35 +11,17 @@ window.addEventListener("load", () => {
   btn.addEventListener("click", () => {
     checkEmail(email);
     if (checkEmail(email)) {
-      subscribe.style.animation = "anima 200ms ease-in-out forwards";
+      cardSuccess.classList.toggle("isHidden");
+      subscribe.classList.toggle("isHidden");
       emailSubscribing.innerHTML = email.value;
-      setTimeout(() => {
-        subscribe.style.animation = "none";
-        subscribe.style.display = "none";
-        cardSuccess.style.animation =
-          "anima 200ms ease-in-out reverse forwards";
-        email.value = "";
-        email.parentNode.classList.remove("valid");
-        email.parentNode.classList.remove("invalid");
-        setTimeout(() => {
-          cardSuccess.style.animation = "none";
-          cardSuccess.style.display = "block";
-        }, 200);
-      }, 200);
     }
   });
 
   btnSuccess.addEventListener("click", () => {
-    cardSuccess.style.animation = "anima 200ms ease-in-out forwards";
-    setTimeout(() => {
-      cardSuccess.style.animation = "none";
-      cardSuccess.style.display = "none";
-      subscribe.style.animation = "anima 200ms ease-in-out reverse forwards";
-      setTimeout(() => {
-        subscribe.style.animation = "none";
-        subscribe.style.display = "block";
-      }, 200);
-    }, 200);
+    cardSuccess.classList.toggle("isHidden");
+    subscribe.classList.toggle("isHidden");
+    email.value = "";
+    email.parentNode.classList.remove("valid");
   });
 
   email.addEventListener("keydown", (e) => {
