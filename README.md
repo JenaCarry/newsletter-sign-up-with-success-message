@@ -2,7 +2,7 @@
 
   <img src="https://www.frontendmentor.io/static/images/logo-mobile.svg" alt="logo" width="60" height="auto">
 
-  <h2>QR code component</h2>
+  <h2>Newsletter sign-up form with success message</h2>
 
   <h3>
     <a href="">
@@ -13,11 +13,11 @@
   <br>
 
   <div align="center">
-    <a href="">View Demo</a>
+    <a href="https://jenacarry.github.io/newsletter-sign-up-with-success-message/">View Demo</a>
     -
-    <a href="">Report Bug</a>
+    <a href="https://github.com/JenaCarry/newsletter-sign-up-with-success-message/issues">Report Bug</a>
     -
-    <a href="">Request Feature</a>
+    <a href="https://github.com/JenaCarry/newsletter-sign-up-with-success-message/pulls">Request Feature</a>
   </div>
 
 </div>
@@ -30,12 +30,12 @@
 
 </div>
 
-This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [Newsletter sign-up form with success message challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/newsletter-signup-form-with-success-message-3FC1AZbNrv). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 <h2>Links</h2>
 
 - Solution URL: [Newsletter sign-up form with success message | Frontend Mentor]()
-- Live Site URL: []()
+- Live Site URL: [https://jenacarry.github.io/newsletter-sign-up-with-success-message/](https://jenacarry.github.io/newsletter-sign-up-with-success-message/)
 
 <br>
 
@@ -56,8 +56,11 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 Users should be able to:
 
-- Distinguish between "unread" and "read" notifications
-- Select "Mark all as read" to toggle the visual state of the unread notifications and set the number of unread messages to zero
+- Add their email and submit the form
+- See a success message with their email after successfully submitting the form
+- See form validation messages if:
+  - The field is left empty
+  - The email address is not formatted correctly
 - View the optimal layout for the interface depending on their device's screen size
 - See hover and focus states for all interactive elements on the page
 

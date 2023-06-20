@@ -60,15 +60,19 @@ function checkEmail(email) {
     );
   if (emailValidation) {
     setSuccess(email);
+  } else if (email.value === "") {
+    setError(email, "cannot be empty");
   } else {
-    setError(email);
+    setError(email, "valid email required");
   }
   return emailValidation;
 }
 
-function setError(input) {
+function setError(input, msg) {
+  const msgError = document.querySelector(".msg-error");
   input.parentNode.classList.remove("valid");
   input.parentNode.classList.add("invalid");
+  msgError.innerHTML = msg;
 }
 
 function setSuccess(input) {
